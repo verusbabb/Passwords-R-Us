@@ -4,7 +4,6 @@ var lcLettersArray = lcLetters.split(""); //splits string array from one to many
 var ucLettersArray = lcLetters.toUpperCase().split(""); //leveraging lcletters to create ucLetters
 var numArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var spCharArray = ["!", "#", "$", "%", "&", "(", "*", "+", "-", "/", ":", ";", "<", ">"];
-var pwItem = "";
 
 //Declare variables to hold user preference values
 var useCaps = false;
@@ -96,15 +95,18 @@ function writePassword() {
     var pwItem = includedChars[Math.floor(Math.random() * includedChars.length)];
     yourPW.push(pwItem);
   }
-
-
   console.log(yourPW);
 
-// var password = generatePassword();
 
-//var passwordText = document.querySelector("#password");
 
-//passwordText.value = password;
+// var password = generatePassword(); 
+
+
+var passwordText = document.querySelector("#password");
+
+passwordText.value = yourPW;
+
+yourPW = [];
 
 }
 
