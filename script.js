@@ -10,12 +10,13 @@ var useCaps = false;
 var useLowerCase = false;
 var useNums = false;
 var useSpChars = false;
+var yourPW =[];
 
 //Declare variable to hold all relavant characters that user wants to include
 var includedChars = [];
 
 //Password array
-var yourPW = [];
+// var yourPW = [];
 
 //target the Generate Password button
 var generateBtn = document.querySelector("#generate");
@@ -95,6 +96,8 @@ function writePassword() {
     var pwItem = includedChars[Math.floor(Math.random() * includedChars.length)];
     yourPW.push(pwItem);
   }
+
+  // var finalPW = yourPW.strip(",");
   console.log(yourPW);
 
 
@@ -106,7 +109,7 @@ var passwordText = document.querySelector("#password");
 
 passwordText.value = yourPW;
 
-yourPW = [];
+finalPW = [];
 
 }
 
