@@ -11,12 +11,11 @@ var useLowerCase = false;
 var useNums = false;
 var useSpChars = false;
 var yourPW =[];
+var password = [];
 
 //Declare variable to hold all relavant characters that user wants to include
 var includedChars = [];
 
-//Password array
-// var yourPW = [];
 
 //target the Generate Password button
 var generateBtn = document.querySelector("#generate");
@@ -27,39 +26,41 @@ function writePassword() {
 //for loop gathering user preferences and creating validation response values
   var i = 0;
 
-  while (i < 2) {
+  while (i < 1) {
 
-    alert("IMPORTANT: Your password must contain at least TWO of the following:  Caps, Lowercase, Numbers, and/or Special Characters");
+    alert("IMPORTANT: You must select AT LEAST ONE OF Caps, lowercase, numbers, or special characters");
 
     i = 0;
-    useCaps = confirm("Would you like to include capital letters in your password?");
+    useCaps = confirm("Should the random generator considering including CAPS?");
     if (useCaps === true) {
       i++,
-        includeCaps = "Caps";
+        includeCaps = "CAPS";
     }
-    else { includeCaps = "No caps" };
+    else { includeCaps = "No CAPS" };
 
-    useLowerCase = confirm("Would you like to include lower case letters in your password?");
+    useLowerCase = confirm("Should the random generator consider including LOWERCASE?");
 
     if (useLowerCase === true) {
       i++,
-        includeLowerCase = "Lowercase letters";
+        includeLowerCase = "LOWERCASE letters";
     }
-    else { includeLowerCase = "No lowercase letters" };
+    else { includeLowerCase = "No LOWERCASE letters" };
 
-    useNums = confirm("Would you like to include NUMBERS in your password?");
+    useNums = confirm("Should the random generator consider including NUMBERS?");
     if (useNums === true) {
       i++,
-        includeNums = "Numbers";
+        includeNums = "NUMBERS";
     }
-    else { includeNums = "No Numbers" };
+    else { includeNums = "No NUMBERS" };
 
-    useSpChars = confirm("Would you like to include SPECIAL CHARACTERS in your password?");
+    useSpChars = confirm("Should the random generator consider including SPECIAL CHARACTERS?");
     if (useSpChars === true) {
       i++,
-        includeSpChars = "Special Characters";
+        includeSpChars = "SPECIAL CHARACTERS";
     }
-    else { includeSpChars = "No Special Characters" };
+    else { includeSpChars = "No SPECIAL CHARACTERS" };
+
+    
   }
 
   // Using while loop to gather desired characters; ensure between 8-129
@@ -72,7 +73,7 @@ function writePassword() {
   var numChars = parseInt(howMany);
 
   //final validation alert of user preferences
-  alert("Your password will be comprised of:" + "\n" + "\n" + includeCaps + "\n" + includeLowerCase + "\n" + includeNums + "\n" + includeSpChars + "\n" + "And a total of " + numChars + " characters");
+  alert("You indicated the resulting password may include :" + "\n" + "\n" +"==> " + includeCaps + "\n" + "==> " + includeLowerCase + "\n" + "==> " + includeNums + "\n" + "==> " + includeSpChars + "\n" + "==> " + "And a total of " + numChars + " characters");
 
 //assembling a single array of all user preferred character groups
   if (useCaps === true) {
@@ -97,19 +98,17 @@ function writePassword() {
     yourPW.push(pwItem);
   }
 
-  // var finalPW = yourPW.strip(",");
   console.log(yourPW);
 
-
-
-// var password = generatePassword(); 
+  password = yourPW.join("");
 
 
 var passwordText = document.querySelector("#password");
 
-passwordText.value = yourPW;
+passwordText.value = password;
 
-finalPW = [];
+password = [];
+yourPW = [];
 
 }
 
