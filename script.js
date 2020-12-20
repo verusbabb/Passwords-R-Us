@@ -1,23 +1,30 @@
-// Assignment Code
+//Create initial arrays of possible characters to use
+var lcLetters = "abcdefghijklmnopqrstuvwxyz";
+var lcLettersArray = lcLetters.split(""); //splits string array from one to many
+var ucLettersArray = lcLetters.toUpperCase().split(""); //leveraging lcletters to create ucLetters
+var numArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+var spCharArray = ["!", "#", "$", "%", "&", "(", "*", "+", "-", "/", ":", ";", "<", ">"];
+var pwItem = "";
+
+//Declare variables to hold user preference values
+var useCaps = false;
+var useLowerCase = false;
+var useNums = false;
+var useSpChars = false;
+
+//Declare variable to hold all relavant characters that user wants to include
+var includedChars = [];
+
+//Password array
+var yourPW = [];
+
+//target the Generate Password button
 var generateBtn = document.querySelector("#generate");
 
+// Write password to the #password input
 function writePassword() {
-  //Create initial arrays of possible characters to use
-  var lcLetters = "abcdefghijklmnopqrstuvwxyz";
-  var lcLettersArray = lcLetters.split(""); //splits string array from one to many
-  var ucLettersArray = lcLetters.toUpperCase().split(""); //leveraging lcletters to create ucLetters
-  var numArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-  var spCharArray = ["!", "#", "$", "%", "&", "(", "*", "+", "-", "/", ":", ";", "<", ">"];
 
-  //Declare variables to hold user preference values
-  var useCaps = false;
-  var useLowerCase = false;
-  var useNums = false;
-  var useSpChars = false;
-
-  //Gather user preferences; Decided to force use
-  //to use at least two character types; using a
-  //for loop to accomplish.
+//for loop gathering user preferences and creating validation response values
   var i = 0;
 
   while (i < 2) {
@@ -55,8 +62,7 @@ function writePassword() {
     else { includeSpChars = "No Special Characters" };
   }
 
-  // Gather user preference for number of characters to use in their password and
-  // ensure it is a number and it falls within the range of 8 and 128
+  // Using while loop to gather desired characters; ensure between 8-129
   var howMany = parseInt(prompt("Passwords are be between 8 and 128 characters long. Input desired password length."));
 
   while (isNaN(howMany) || howMany < 8 || howMany > 128) {
@@ -68,9 +74,7 @@ function writePassword() {
   //final validation alert of user preferences
   alert("Your password will be comprised of:" + "\n" + "\n" + includeCaps + "\n" + includeLowerCase + "\n" + includeNums + "\n" + includeSpChars + "\n" + "And a total of " + numChars + " characters");
 
-
-  var includedChars = [];
-
+//assembling a single array of all user preferred character groups
   if (useCaps === true) {
     includedChars = ucLettersArray;
   }
@@ -87,33 +91,22 @@ function writePassword() {
     includedChars = includedChars.concat(spCharArray);
   }
 
-  console.log(includedChars);
-
-  var yourPW = [];
-  // var yourPWstring = [];
-
+//running for loop to randomly generate string array with password characters
   for (var j = 0; j < numChars; j++) {
     var pwItem = includedChars[Math.floor(Math.random() * includedChars.length)];
     yourPW.push(pwItem);
   }
 
+
   console.log(yourPW);
 
-  var password = generatePassword(yourPW);
-  var passwordText = document.querySelector("#password");
+// var password = generatePassword();
 
-  passwordText.value = password;
+//var passwordText = document.querySelector("#password");
 
-  
+//passwordText.value = password;
+
 }
-
-  // Write password to the #password input
-  function generatePassword(PWord) {
-  
-    Pword = PWord.join("");
-  }
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
