@@ -65,11 +65,11 @@ The following images show the site working its magic at various stages:
 ## Links to Application and Repo
 Below is a link to try for yourself.  We at Passwords"R"Us stongly suggest that you bookmark this application and rely on it for generating passwords to keep your data safe from nasty intruders (tell your parents to as well):
 
-![](https://verusbabb.github.io/PasswordGenerator/)
+![](https://verusbabb.github.io/Passwords-R-Us/)
 
 Below is a link to my GitHub repo:
 
-![](https://github.com/verusbabb/PasswordGenerator)
+![](https://github.com/verusbabb/Passwords-R-Us)
 
 ----
 Contact:  Steve Babb @ steve.babb@outlook.com
