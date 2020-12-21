@@ -53,23 +53,19 @@ THEN the password is either displayed in an alert or written to the page
 
 The following images show the site working its magic at various stages:
 
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Homepage.png)
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Starting_alert.png)
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Character_types.png)
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Character_numbers.png)
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Out_of_range.png)
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Preferences_validation.png)
-![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Password_generated.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Homepage.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Initial_confirm.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Sample_char_type_alert.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Num_chars.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Out_of_range.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Validation_confirm.png)
+![]()
 
 
-## Links to Application and Repo
-Below is a link to try for yourself.  We at Passwords"R"Us stongly suggest that you bookmark this application and rely on it for generating passwords to keep your data safe from nasty intruders (tell your parents to as well):
+## Link to the Working Application
+Below is a link to try the application for yourself.  We at Passwords"R"Us stongly suggest that you bookmark this application and rely on it for generating passwords to keep your data safe from nasty intruders (tell your parents to as well):
 
-![](https://verusbabb.github.io/Passwords-R-Us/)
-
-Below is a link to my GitHub repo:
-
-![](https://github.com/verusbabb/Passwords-R-Us)
+https://verusbabb.github.io/Passwords-R-Us/
 
 ----
 Contact:  Steve Babb @ steve.babb@outlook.com
