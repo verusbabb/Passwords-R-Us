@@ -1,12 +1,12 @@
 # Passwords-R-Us
-Here at Passwords-R-Us, we specialize in creating highly secure passwords that make it difficult for even the best of hackers to steal.  
+Here at Passwords-R-Us, we specialize in creating highly secure passwords that make it difficult for even the best of hackers to steal.  Hurry while supplies last.
 
 ## "One-in-millon chance of someone guessing your password?"
 Not even close.  If you choose the maximum strength password we can generate, our random password generator technology makes the chances literally 1 in 1,467,574,951,244,021,123,655,345,106,016,837,380,110,615,560,179,184,677,679,415!!!  
 
-A recently published study at www.fakescience.com proved that hackers will actually lose their mind before they crack the passwords we generate. 
+A recently published study at www.incrediblyuntruescience.com proved that hackers will actually lose their mind before they crack the passwords we generate. 
 
-So sleep well because Passwords-R-Us is protecting you valuable data.
+So sleep well because Passwords"R"Us is protecting your valuable data.
 
 (Don't just take our word for it.  Reviews are pouring in, as noted on the Passwords-R-Us homepage.)
 
@@ -49,14 +49,27 @@ THEN the password is either displayed in an alert or written to the page
 - Custom stylized the finished product by modifying html and css.
 - Developed an entirely new brand of password generators and had the Chief Tech Editor at REALLY FAKE NEWS review the product; added quote to website to give it true credibility.
 
-## Finished Product
+## Images Finished Product
 
-The following images shows the web application working its magic:
+The following images show the site working its magic at various stages:
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+![Homepage](/Assets/Homepage)
+![Intro Aler](/Assets/Starting_alert)
+![Example of character-type alert](/Assets/Character_types)
+![Number of characters prompt](/Assets/Character_numbers)
+![Too few; too many characters alert](/Assets/Out-of-range)
+![User preference validation](/Assets/Preferences_validation)
+![Password has been generated](/Assets/Password_generated)
 
-Here is a link to try it for yourself.  We at Passwords"R"Us stongly suggest that you bookmark this application and rely on it for generating passwords to keep your data safe from nasty intruders (tell your parents to as well):
 
+## Links to Application and Repo
+Below is a link to try for yourself.  We at Passwords"R"Us stongly suggest that you bookmark this application and rely on it for generating passwords to keep your data safe from nasty intruders (tell your parents to as well):
+
+![Passwords"R"Us](https://verusbabb.github.io/PasswordGenerator/)
+
+Below is a link to my GitHub repo:
+
+![GitHub Repo](https://github.com/verusbabb/PasswordGenerator)
 
 ----
 Contact:  Steve Babb @ steve.babb@outlook.com
