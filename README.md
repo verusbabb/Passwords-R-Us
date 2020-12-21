@@ -53,23 +53,23 @@ THEN the password is either displayed in an alert or written to the page
 
 The following images show the site working its magic at various stages:
 
-![Homepage](/Assets/Homepage)
-![Intro Aler](/Assets/Starting_alert)
-![Example of character-type alert](/Assets/Character_types)
-![Number of characters prompt](/Assets/Character_numbers)
-![Too few; too many characters alert](/Assets/Out-of-range)
-![User preference validation](/Assets/Preferences_validation)
-![Password has been generated](/Assets/Password_generated)
+![](/Assets/Homepage)
+![](/Assets/Starting_alert)
+![](/Assets/Character_types)
+![](/Assets/Character_numbers)
+![](/Assets/Out-of-range)
+![](/Assets/Preferences_validation)
+![](/Assets/Password_generated)
 
 
 ## Links to Application and Repo
 Below is a link to try for yourself.  We at Passwords"R"Us stongly suggest that you bookmark this application and rely on it for generating passwords to keep your data safe from nasty intruders (tell your parents to as well):
 
-![Passwords"R"Us](https://verusbabb.github.io/PasswordGenerator/)
+![](https://verusbabb.github.io/PasswordGenerator/)
 
 Below is a link to my GitHub repo:
 
-![GitHub Repo](https://github.com/verusbabb/PasswordGenerator)
+![](https://github.com/verusbabb/PasswordGenerator)
 
 ----
 Contact:  Steve Babb @ steve.babb@outlook.com
