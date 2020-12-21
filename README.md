@@ -53,13 +53,13 @@ THEN the password is either displayed in an alert or written to the page
 
 The following images show the site working its magic at various stages:
 
-![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Homepage.png)
-![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Initial_confirm.png)
-![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Sample_char_type_alert.png)
-![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Num_chars.png)
-![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Out_of_range.png)
-![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Validation_confirm.png)
-![]()
+![Homepage](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Homepage.png)
+![Initial alert](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Initial_confirm.png)
+![Example character-type confirm](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Sample_char_type_alert.png)
+![Desired number of characters prompt](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Num_chars.png)
+![Too many/too few characters chosen alert](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Out_of_range.png)
+![Final user preference validation alert](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Validation_confirm.png)
+![Password successfully generated](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/Password_generated.png)
 
 
 ## Link to the Working Application
