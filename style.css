@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: lightgray;
 }
 
 .wrapper {
@@ -28,6 +28,22 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+}
+
+/* the following three elements have been added for custom styling */
+p {
+  font-family: 'Cantarell', sans-serif;
+  padding-left: 15%;
+  padding-right: 15%
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 7vw;
+}
+
+#PRU {
+  color: rgb(116, 4, 4)
 }
 
 .card {
@@ -135,5 +151,4 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
-
 
