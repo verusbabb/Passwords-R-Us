@@ -1,7 +1,7 @@
 # Passwords-R-Us
 Here at Passwords-R-Us, we specialize in creating highly secure passwords that make it difficult for even the best of hackers to steal.  Hurry while supplies last.
 
-## "One-in-millon chance of someone guessing your password?"
+## One-in-Millon Chance of Someone Guessing Your Password?
 Not even close.  If you choose the maximum strength password we can generate, our random password generator technology makes the chances literally 1 in 1,467,574,951,244,021,123,655,345,106,016,837,380,110,615,560,179,184,677,679,415!!!  
 
 A recently published study at "www.incrediblyuntruescience.bs" proved that hackers will actually lose their mind before they crack the passwords we generate. 
@@ -15,6 +15,10 @@ So sleep well because Passwords"R"Us is protecting your valuable data.
 Create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
 The password can include special characters. 
+
+This was the png image we were given for as a rough guideline of what the deliverable should look like.
+
+![](03-javascript-homework-demo.png)
 
 ## User Story
 
