@@ -28,14 +28,14 @@ function writePassword() {
     alert("IMPORTANT: You must select AT LEAST ONE OF Caps, lowercase, numbers, or special characters");
 
     i = 0;
-    useCaps = confirm("Should the random generator considering including CAPS?");
+    useCaps = confirm("Can our random generator include CAPS?");
     if (useCaps === true) {
       i++;
       var includeCaps = "CAPS";
     }
     else { includeCaps = "No CAPS" };
 
-    useLowerCase = confirm("Should the random generator consider including LOWERCASE?");
+    useLowerCase = confirm("Can our random generator include LOWERCASE?");
 
     if (useLowerCase === true) {
       i++;
@@ -43,14 +43,14 @@ function writePassword() {
     }
     else { includeLowerCase = "No LOWERCASE letters" };
 
-    useNums = confirm("Should the random generator consider including NUMBERS?");
+    useNums = confirm("Can our random generator include NUMBERS?");
     if (useNums === true) {
       i++;
       var includeNums = "NUMBERS";
     }
     else { includeNums = "No NUMBERS" };
 
-    useSpChars = confirm("Should the random generator consider including SPECIAL CHARACTERS?");
+    useSpChars = confirm("Can our random generator include SPECIAL CHARACTERS?");
     if (useSpChars === true) {
       i++;
       var includeSpChars = "SPECIAL CHARACTERS";
@@ -63,13 +63,13 @@ function writePassword() {
 
   //while loop ensuring number of characters is in range
   while (isNaN(howMany) || howMany < 8 || howMany > 128) {
-    var howMany = prompt("Whoops, please enter a desired password length (type in a number between 8-128");
+    var howMany = prompt("Whoops, please enter a desired password length (must be between 8-128");
   }
 
   var numChars = parseInt(howMany);
 
   //final validation alert of user preferences
-  alert("You indicated the resulting password may include :" + "\n" + "\n" + "==> " + includeCaps + "\n" + "==> " + includeLowerCase + "\n" + "==> " + includeNums + "\n" + "==> " + includeSpChars + "\n" + "==> " + "And a total of " + numChars + " characters");
+  alert("You indicated the resulting password can include :" + "\n" + "\n" + "==> " + includeCaps + "\n" + "==> " + includeLowerCase + "\n" + "==> " + includeNums + "\n" + "==> " + includeSpChars + "\n" + "==> " + "And a total of " + numChars + " characters");
 
   //creating/setting an array as empty prior to adding user-preferred character types to the array
   //ensuring the array is empty in the event the writePassword function 
