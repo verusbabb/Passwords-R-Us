@@ -18,7 +18,7 @@ The password can include special characters.
 
 This was the png image we were given for as a rough guideline of what the deliverable should look like.
 
-![](03-javascript-homework-demo.png)
+![](https://github.com/verusbabb/Passwords-R-Us/blob/main/Assets/03-javascript-homework-demo.png)
 
 ## User Story
 
