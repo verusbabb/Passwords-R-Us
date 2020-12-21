@@ -4,7 +4,7 @@ Here at Passwords-R-Us, we specialize in creating highly secure passwords that m
 ## "One-in-millon chance of someone guessing your password?"
 Not even close.  If you choose the maximum strength password we can generate, our random password generator technology makes the chances literally 1 in 1,467,574,951,244,021,123,655,345,106,016,837,380,110,615,560,179,184,677,679,415!!!  
 
-A recently published study at www.incrediblyuntruescience.com proved that hackers will actually lose their mind before they crack the passwords we generate. 
+A recently published study at "www.incrediblyuntruescience.bs" proved that hackers will actually lose their mind before they crack the passwords we generate. 
 
 So sleep well because Passwords"R"Us is protecting your valuable data.
 
@@ -53,13 +53,13 @@ THEN the password is either displayed in an alert or written to the page
 
 The following images show the site working its magic at various stages:
 
-![](/Assets/Homepage)
-![](/Assets/Starting_alert)
-![](/Assets/Character_types)
-![](/Assets/Character_numbers)
-![](/Assets/Out-of-range)
-![](/Assets/Preferences_validation)
-![](/Assets/Password_generated)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Homepage.png)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Starting_alert.png)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Character_types.png)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Character_numbers.png)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Out_of_range.png)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Preferences_validation.png)
+![](https://github.com/verusbabb/PasswordGenerator/blob/main/Assets/Password_generated.png)
 
 
 ## Links to Application and Repo
